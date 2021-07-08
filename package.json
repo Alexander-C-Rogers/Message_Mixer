@@ -1,0 +1,25 @@
+{
+  "name": "message_mixer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "message-mixer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexander-C-Rogers/Message_Mixer.git"
+  },
+  "author": "Alexander-C-Rogers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexander-C-Rogers/Message_Mixer/issues"
+  },
+  "homepage": "https://github.com/Alexander-C-Rogers/Message_Mixer#readme",
+  "dependencies": {
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
