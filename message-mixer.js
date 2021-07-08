@@ -39,3 +39,11 @@ function getEncryptionMethod() {
     process.stdout.write('Enter the message you would like to encrypt...\n> ');
     return encryptionMethod;
 }
+
+/* Helper function for displaying the encrypted message to the user. */
+function displayEncryptedMessage(encryptionMethod, userInput) {
+    let str = userInput.toString().trim();    
+    let output = encryptionMethod(str);
+    process.stdout.write(`\nHere is your encrypted message:\n> ${output}\n`)
+    process.exit();
+}
