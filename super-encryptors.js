@@ -25,3 +25,7 @@ const handleInput = (userInput) => {
     process.stdout.write(output + '\n');
     process.exit();
 }
+
+// Run the program.
+process.stdout.write('Enter the message you would like to encrypt...\n> ');
+process.stdin.on('data', handleInput);
